@@ -1,3 +1,3 @@
 function mostrarAlerta() {
-  alert("Dica: Use morangos bem maduros para realçar o sabor!");
+  alert("Dica: Escolha morangos bem maduros para um sabor mais doce e intenso!");
 }
