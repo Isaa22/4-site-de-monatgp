@@ -3,41 +3,55 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Torta de Morango</title>
+  <title>Torta de Morango Delícia</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body class="colunas">
+<body>
   <header>
-    <h1>Torta de Morango</h1>
-    <p>Uma torta gelada com base crocante e cobertura de morango brilhante.</p>
+    <div class="container">
+      <h1>Torta de Morango Delícia</h1>
+      <p>A sobremesa perfeita para impressionar seus convidados.</p>
+    </div>
   </header>
-  <main>
-    <section class="ingredientes">
-      <h2>Ingredientes</h2>
-      <ul>
-        <li>1 pacote de biscoito maisena</li>
-        <li>100g de manteiga derretida</li>
-        <li>1 lata de leite condensado</li>
-        <li>1 caixa de creme de leite</li>
-        <li>2 xícaras de morangos fatiados</li>
-        <li>1 pacote de gelatina de morango</li>
-      </ul>
+
+  <main class="container">
+    <section class="imagem-destaque">
+      <img src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=800&q=80" alt="Torta de Morango" />
     </section>
-    <section class="preparo">
-      <h2>Modo de Preparo</h2>
-      <ol>
-        <li>Triture os biscoitos e misture com a manteiga.</li>
-        <li>Forre uma forma com a massa e leve à geladeira.</li>
-        <li>Misture o leite condensado e creme de leite, despeje sobre a base.</li>
-        <li>Cubra com os morangos e a gelatina preparada.</li>
-        <li>Leve à geladeira por 3 horas.</li>
-      </ol>
+
+    <section class="conteudo">
+      <div class="ingredientes">
+        <h2>Ingredientes</h2>
+        <ul>
+          <li>1 pacote de biscoito maisena</li>
+          <li>100g de manteiga derretida</li>
+          <li>1 lata de leite condensado</li>
+          <li>1 caixa de creme de leite</li>
+          <li>2 xícaras de morangos fatiados</li>
+          <li>1 pacote de gelatina de morango</li>
+        </ul>
+      </div>
+
+      <div class="preparo">
+        <h2>Modo de Preparo</h2>
+        <ol>
+          <li>Triture os biscoitos e misture com a manteiga.</li>
+          <li>Forre uma forma com a massa e leve à geladeira.</li>
+          <li>Misture o leite condensado e creme de leite, despeje sobre a base.</li>
+          <li>Cubra com os morangos e a gelatina preparada.</li>
+          <li>Leve à geladeira por 3 horas.</li>
+        </ol>
+      </div>
     </section>
-    <button onclick="mostrarAlerta()">Ver Dica</button>
+
+    <button id="btnDica">Mostrar Dica</button>
+    <p id="dica" class="dica-escondida">Use morangos frescos e maduros para um sabor incrível!</p>
   </main>
+
   <footer>
-    <p>Receitas com morango &copy; 2025</p>
+    <p>&copy; 2025 Receitas Deliciosas de Morango</p>
   </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
