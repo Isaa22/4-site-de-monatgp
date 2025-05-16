@@ -1,3 +1,12 @@
-function mostrarAlerta() {
-  alert("Dica: Escolha morangos bem maduros para um sabor mais doce e intenso!");
-}
+const btnDica = document.getElementById('btnDica');
+const dica = document.getElementById('dica');
+
+btnDica.addEventListener('click', () => {
+  if (dica.style.display === 'block') {
+    dica.style.display = 'none';
+    btnDica.textContent = 'Mostrar Dica';
+  } else {
+    dica.style.display = 'block';
+    btnDica.textContent = 'Esconder Dica';
+  }
+});
